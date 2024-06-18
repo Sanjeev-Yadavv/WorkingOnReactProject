@@ -22,8 +22,8 @@ const links = [
         label: 'Login',
     },
     {
-        to: '/task',
-        label: 'Task',
+        to: '/tickets',
+        label: 'Tickets',
     },
 ]
 
