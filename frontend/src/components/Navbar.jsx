@@ -28,6 +28,8 @@ const links = [
 ]
 
 export default function Navbar(){
+    const {authDetails} = useContext(AuthContext)
+    const {isLoggedIn} = authDetails
 
     const {logout} = useContext(AuthContext)
     return <Flex
@@ -42,7 +44,7 @@ export default function Navbar(){
         
     ))}
 
-    <Button onClick={logout} variant='outline' colorScheme="teal" >LogOut</Button>
+  { isLoggedIn ?  (<Button onClick={logout} variant='outline' colorScheme="teal" >LogOut</Button>) : null}
     </Flex>
 
 

@@ -1,84 +1,100 @@
 {
-    "tickets" : [
-        {
-            "id" : 1,
-            "title" : "Navbar Feature LogOut",
-            "description" : "Build a logOut button within navbar",
-            "assignee" : "Sanju",
-            "status" : "pending",
-            "priority" : 0
-        },
-        {
-            "id" : 2,
-            "title" : "User Profile Page",
-            "description" : "Design the user profile page layout",
-            "assignee" : "Massab",
-            "status" : "Progress",
-            "priority" : 3
-        },
-        {
-            "id" : 3,
-            "title" : "Database Migration",
-            "description" : "Migrate user data to the new database schema",
-            "assignee" : "Banty",
-            "status" : "Completed",
-            "priority" : 5
-        },
-        {
-            "id" : 4,
-            "title" : "API Endpoint for Login",
-            "description" : "Create an API endpoint for user login",
-            "assignee" : "Yogendra",
-            "status" : "pending",
-            "priority" : 2
-        },
-        {
-            "id" : 5,
-            "title" : "Frontend Testing",
-            "description" : "Write tests for the frontend components",
-            "assignee" : "Rakesh",
-            "status" : "Progress",
-            "priority" : 4
-        },
-        {
-            "id" : 6,
-            "title" : "Email Notifications",
-            "description" : "Implement email notifications for user actions",
-            "assignee" : "Sanju",
-            "status" : "Completed",
-            "priority" : 7
-        },
-        {
-            "id" : 7,
-            "title" : "Password Reset Feature",
-            "description" : "Build a password reset feature",
-            "assignee" : "Massab",
-            "status" : "pending",
-            "priority" : 6
-        },
-        {
-            "id" : 8,
-            "title" : "Real-time Chat",
-            "description" : "Integrate real-time chat functionality",
-            "assignee" : "Banty",
-            "status" : "Progress",
-            "priority" : 8
-        },
-        {
-            "id" : 9,
-            "title" : "Performance Optimization",
-            "description" : "Optimize the application performance",
-            "assignee" : "Yogendra",
-            "status" : "Completed",
-            "priority" : 1
-        },
-        {
-            "id" : 10,
-            "title" : "Dark Mode",
-            "description" : "Implement dark mode across the application",
-            "assignee" : "Rakesh",
-            "status" : "pending",
-            "priority" : 9
-        }
-    ]
+  "tickets": [
+    {
+      "title": "Database Migration start",
+      "description": "Migrate user data to the new database schema",
+      "assignee": "sanju",
+      "status": "pending",
+      "priority": 5,
+      "id": 3
+    },
+    {
+      "id": 4,
+      "title": "API Endpoint for Login",
+      "description": "Create an API endpoint for user login",
+      "assignee": "Yogendra",
+      "status": "pending",
+      "priority": 2
+    },
+    {
+      "id": 5,
+      "title": "Frontend Testing",
+      "description": "Write tests for the frontend components",
+      "assignee": "Rakesh",
+      "status": "Progress",
+      "priority": 4
+    },
+    {
+      "id": 6,
+      "title": "Email Notifications",
+      "description": "Implement email notifications for user actions",
+      "assignee": "Sanju",
+      "status": "Completed",
+      "priority": 7
+    },
+    {
+      "id": 7,
+      "title": "Password Reset Feature",
+      "description": "Build a password reset feature",
+      "assignee": "Massab",
+      "status": "pending",
+      "priority": 6
+    },
+    {
+      "id": 8,
+      "title": "Real-time Chat",
+      "description": "Integrate real-time chat functionality",
+      "assignee": "Banty",
+      "status": "Progress",
+      "priority": 8
+    },
+    {
+      "id": 9,
+      "title": "Performance Optimization",
+      "description": "Optimize the application performance",
+      "assignee": "Yogendra",
+      "status": "Completed",
+      "priority": 1
+    },
+    {
+      "id": 10,
+      "title": "Dark Mode",
+      "description": "Implement dark mode across the application",
+      "assignee": "Rakesh",
+      "status": "pending",
+      "priority": 9
+    },
+    {
+      "title": "",
+      "desciption": "",
+      "assignee": "",
+      "status": "",
+      "priority": "",
+      "id": 11
+    },
+    {
+      "title": "asdc",
+      "desciption": "vrhtvvfdfgffvfgre",
+      "assignee": "massab",
+      "status": "pending",
+      "priority": "2",
+      "id": 12
+    },
+    {
+      "title": "",
+      "desciption": "",
+      "assignee": "",
+      "status": "",
+      "priority": "",
+      "id": 13
+    },
+    {
+      "title": "devops",
+      "desciption": "create some apps to solve the given problems",
+      "assignee": "rakesh",
+      "status": "progress",
+      "priority": "6",
+      "id": 15
+    }
+  ]
 }

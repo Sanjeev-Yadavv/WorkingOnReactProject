@@ -4,7 +4,7 @@ import { createContext,useState } from "react";
 
 export  function AuthContextProvider({children}){
     const [authDetails, setAuthDetails] = useState({
-        isLoogedIn: true,
+        isLoggedIn: false,
         token: null,
     });
 
@@ -13,7 +13,7 @@ export  function AuthContextProvider({children}){
             isLoggedIn: true,
             token: token,
         })
-        console.log(authDetails)
+        // console.log(authDetails)
     }
 
     const logout = () =>{
@@ -21,7 +21,7 @@ export  function AuthContextProvider({children}){
             isLoggedIn: false,
             token: null,
         })
-        console.log(authDetails)
+        // console.log(authDetails)
     }
 
 
