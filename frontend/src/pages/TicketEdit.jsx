@@ -24,7 +24,7 @@ export default function TicketEdit() {
        try {
            let res = await axios ({
                method: "get",
-               url: `http://localhost:3000/tickets/${id}`
+               url: `http://localhost:3200/tickets/${id}`
            })
    setLoading(false)
          setTicket(res.data)
@@ -60,7 +60,7 @@ export default function TicketEdit() {
 
             let res = await axios({
                    method: 'put',
-                   url: `http://localhost:3000/tickets/${id}` ,
+                   url: `http://localhost:3200/tickets/${id}` ,
                    data: updatedTicket,
             })
 

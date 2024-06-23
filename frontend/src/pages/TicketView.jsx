@@ -17,7 +17,7 @@ export default  function TicketView(){
     try {
         let res = await axios ({
             method: "get",
-            url: `http://localhost:3000/tickets/${id}`
+            url: `http://localhost:3200/tickets/${id}`
         })
 setLoading(false)
       setTicket(res.data)
@@ -46,7 +46,7 @@ setLoading(false)
     try {
       let res = await axios({
         method: "delete",
-        url: `http://localhost:3000/tickets/${id}`
+        url: `http://localhost:3200/tickets/${id}`
       })
 
       if(res.status===200){

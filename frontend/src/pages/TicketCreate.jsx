@@ -20,7 +20,7 @@ const navigate = useNavigate()
         try {
           let res = await axios ({
             method : "post",
-            url : "http://localhost:3000/tickets",
+            url : "http://localhost:3200/tickets",
             data : {
                 title : title,
                 desciption: desciption,

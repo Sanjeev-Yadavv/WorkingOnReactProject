@@ -39,7 +39,7 @@ export default function Tickets() {
     
             let res = await axios({
                 method: "get",
-                url: `http://localhost:3000/tickets`,
+                url: `http://localhost:3200/tickets`,
                 params: queryParams,
             });
             let data = res?.data;
